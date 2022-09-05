@@ -1,0 +1,525 @@
+/* font  */
+@font-face
+{
+    font-family:CodaCaption-ExtraBold;
+    src: url('../font/Coda_Caption/CodaCaption-ExtraBold.ttf');
+}
+*
+{
+    font-family: 'Roboto', sans-serif;
+   
+}
+h1,h2,h3,h4,h5
+{
+    font-family:CodaCaption-ExtraBold;
+}
+/* body  */
+body
+{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.uni-padding
+{
+    padding: 0 7%;
+}
+
+/* top bar  */
+#top_bar
+{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+    user-select: none;
+}
+/* toll-free */
+#toll-free
+{
+    float: left;
+    color: #fdfdfd;
+    margin: 0;
+    margin-top: 5px;
+    user-select: auto;
+}
+/* social-icons */
+#social-icons
+{
+    float: right;
+    
+}
+.fa-brands
+{
+    background-color: #fdfdfd;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+    
+}
+.fa-brands:hover
+{
+    background-color: rgb(172, 169, 171);
+}
+.fa-facebook:hover
+{
+    transform: scale(.9,.9);
+}
+.fa-whatsapp:hover
+{
+    transform: scale(.9,.9);
+}
+.fa-twitter:hover
+{
+    transform: scale(.9,.9);
+}
+.fa-instagram:hover
+{
+    transform: scale(.9,.9);
+}
+/* logo-image */
+#logo-image
+{
+    width: 200px;
+    margin: 25px 0px;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+
+}
+
+/* menu or nav bar  */
+#nav-bar
+{
+    background-color: #ee5253;
+}
+#nav-bar ul
+{
+    margin: 0;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  padding: 0;
+}
+#nav-bar ul li
+{
+    display: inline-block;
+    padding: 20px 0px ;
+    padding-right: 35px;
+    padding-left: 35px;
+    transition: background-color;
+    transition-duration: .5s;
+}
+#nav-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+/* hover in menu  */
+#nav-bar ul li:hover
+{
+    
+    background-color:  #b14e4e;
+    border-radius: 5px;
+}
+
+#nav-bar ul #mobile_cross,#menu_button
+{
+    display: none;
+}
+/* poster  */
+#poster
+{
+    background-image: url("../images/banner1.webp");
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#poster h2
+{
+    font-size: 50px;
+}
+#poster p 
+{
+    font-size: 25px;
+    text-align: center;
+}
+ 
+/* why section  */
+#why_section
+{
+   
+    overflow: auto;
+}
+#red-heading
+{
+    color: #ee5253;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.section33
+{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 10px 50px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.section33 img
+{
+    max-width: 100%;
+}
+.section33 h1
+{
+    color: #ee5253;
+}
+.section33 p
+{
+    color: #363636;
+}
+#sec3 img
+{
+    position: relative;
+    top: -50px;
+}
+#sec3
+{
+  position: relative;
+  top: 90px;
+
+}
+
+
+/* contact button style  */
+#contect-section
+{
+    background-color:#ee5253 ;
+    color:white ;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.contact70
+{
+    width: 70%;
+    float: left;
+
+}
+.section30
+{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+}
+#contact-btn
+{
+    background-color: white;
+    text-decoration: none;
+    color: #ee5253;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* blog  */
+#readmore
+{
+    text-decoration: none;
+    color: #ee5253;
+    font-weight: bold;
+}
+
+/* subsceiber  */
+#subscribe-container
+{
+    background-color: #ee5253;
+    overflow: auto;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sec50
+{
+    width: 50%;
+    float: left;
+}
+.sec50 h1
+{
+    text-align: right;
+    font-size: 27px;
+    padding-right: 50px;
+}
+.sec50 form
+{
+    padding-top: 30px;
+}
+.sec50 input[type="email"]
+{
+    padding: 10px 30px;
+    color: #da7070;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 45%;
+    border: 0px;
+}
+.sec50 input[type="email"]:focus
+{
+    border: 0px;
+    outline: none !important;
+    box-shadow: 0 0 10px #719ECE;
+}
+.sec50 button
+{
+    padding: 8px 35px;
+    color: #da7070;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* footer  */
+#important_link
+{
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+}
+.div33
+{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div33 h3
+{
+    text-decoration: underline;
+    /* add gap in underline  */
+    text-underline-offset: 10px; 
+    /* thin the line  */
+    text-decoration-thickness: 2px;
+}
+#footer-menu
+{
+    list-style: none;
+    padding: 0;
+}
+#footer-menu li
+{
+    padding-bottom: 10px;
+}
+#footer-menu a
+{
+    text-decoration: none;
+    color: white;
+}
+#footer-menu-container
+{
+    padding-left:100px;
+}
+#copyRight{
+        background-color: #222f3e;
+        text-align: center;
+        padding: 10px;
+        color: white;
+}
+
+
+
+/* responcive wesite  */
+
+/* I-pad pro  */
+@media only screen and (max-width:1024px) 
+{
+    #nav-bar ul li
+    {
+       padding-right: 15px;
+    }
+    .contact70 {
+            padding-right: 30px;
+            box-sizing: border-box;
+    }
+    .section30 {
+        padding-top: 80px;
+    }
+}
+
+/* ipad  */
+@media only screen and (max-width:820px)
+{
+    
+    #nav-bar ul li
+    {
+       padding-right: 0px;
+       padding-left: 21px;
+    }
+    #sec3 
+    {
+        top: 60px;
+    }
+    .section30 {
+        padding-top: 110px;
+    }
+    .sec50 h1 {
+        font-size: 20px;
+        padding-right: 80px;
+        padding-top: 20px;
+    }
+    .sec50 button {
+        padding: 10px 25px;
+    }
+    .div33 {
+
+        padding-right: 0px;
+    }
+}
+/* iphone x  */
+@media only screen and (max-width:500px)
+{
+    #logo-bar
+    {
+        text-align: center;
+    }
+    #poster h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    #poster p {
+        font-size: 20px;
+    }
+    .section33, .contact70, .section30, .sec50, .div33 {
+            width: 100%;
+    }
+    .section33
+    {
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+    .sec50 h1
+    {
+        width: 100%;
+        padding-right: 50px;
+        text-align: left;
+        font-size: 19px;
+    }
+    .sec50 input[type="email"]
+    {
+        overflow:hidden ;
+        margin-right: 0px;
+        width: 70%;
+        box-sizing: border-box;
+    }
+    .sec50 button
+    {
+        padding: 10px;
+    }
+   #footer-menu-container
+   {
+    position: relative;
+        left: -50px;
+   }
+   #footer-menu-container .footer-menu
+   {
+        text-align: center;
+   }
+   .contact70 
+   {
+        text-align: center;
+        padding-right: 0px;
+   }
+   #why_section {
+            height:100%;
+   }
+   .section30
+   {
+        padding-top: 20px;
+   }
+   #important_link
+   {
+    text-align: center;
+   }
+   .div33 p 
+   {
+    font-size: 20px;
+    font-weight: normal;
+    direction: ltr;
+    padding-right: 50px;
+   }
+}
+
+/* ipad air  */
+@media only screen and (max-width:820px)
+{
+    
+
+}
+/* mobile menu  */
+
+@media only screen and (max-width:500px)
+{
+    #nav-bar {
+        position: absolute;
+        height: 100vh;
+        top: 0px;
+        width: 288px;
+        padding: 0px;
+    }
+    #nav-bar ul li {
+        display: block;
+        border-bottom: 1px solid #d8d1d1;
+        padding: 30px 0;
+       padding-left: 35px;
+    }
+    #nav-bar ul li:hover {
+            background-color: #719ECE;
+    }
+    #mobile_cross
+    {
+        text-align: right;
+       
+    }
+    .fa-times-circle
+    {
+        font-size: 25px;
+        padding-right: 25px;
+    }
+    #nav-bar
+    {
+        left: -290px;
+        transition: all .5s ease;
+    }
+    #menu_button
+    {
+        background-color: #ee5253;
+        color: white;
+        padding: 18px;
+        font-size: 28px;
+    }
+    #nav-bar ul #mobile_cross,#menu_button
+    {
+        display: block;
+    }
+    #why_section
+    {
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+}
